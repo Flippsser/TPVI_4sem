@@ -1,0 +1,7 @@
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Технологии програмирования в интернет\Labs\Lab_01\Lab_01\obj\Release\net8.0\PubTmp\Out\Lab_01.exe
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Технологии програмирования в интернет\Labs\Lab_01\Lab_01\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Технологии програмирования в интернет\Labs\Lab_01\Lab_01\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Технологии програмирования в интернет\Labs\Lab_01\Lab_01\obj\Release\net8.0\PubTmp\Out\Lab_01.dll
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Технологии програмирования в интернет\Labs\Lab_01\Lab_01\obj\Release\net8.0\PubTmp\Out\Lab_01.deps.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Технологии програмирования в интернет\Labs\Lab_01\Lab_01\obj\Release\net8.0\PubTmp\Out\Lab_01.runtimeconfig.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Технологии програмирования в интернет\Labs\Lab_01\Lab_01\obj\Release\net8.0\PubTmp\Out\Lab_01.pdb

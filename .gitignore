@@ -1,0 +1,14 @@
+/x64
+*/x64
+*.pdb
+/.vs
+/.git
+Debug
+x64
+*x64
+*.pdb
+.vs
+.git
+*.ldf
+*.mdf
+*.ndf
