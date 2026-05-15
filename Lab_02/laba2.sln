@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPA002_1", "ASPA002_1\ASPA002_1.csproj", "{BFCA1712-70FF-41ED-932D-EFA82569B4A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPA002_2", "ASPA002_2\ASPA002_2.csproj", "{AA42BD68-ADFD-4C07-A4EA-66AA31E6BB6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPA002_3", "ASPA002_3\ASPA002_3.csproj", "{ADA4043E-7E98-4795-968B-0027F26B3FD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFCA1712-70FF-41ED-932D-EFA82569B4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCA1712-70FF-41ED-932D-EFA82569B4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCA1712-70FF-41ED-932D-EFA82569B4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCA1712-70FF-41ED-932D-EFA82569B4A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA42BD68-ADFD-4C07-A4EA-66AA31E6BB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA42BD68-ADFD-4C07-A4EA-66AA31E6BB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA42BD68-ADFD-4C07-A4EA-66AA31E6BB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA42BD68-ADFD-4C07-A4EA-66AA31E6BB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA4043E-7E98-4795-968B-0027F26B3FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA4043E-7E98-4795-968B-0027F26B3FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA4043E-7E98-4795-968B-0027F26B3FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA4043E-7E98-4795-968B-0027F26B3FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B522D014-E708-4A78-AE55-2AC62B059024}
+	EndGlobalSection
+EndGlobal

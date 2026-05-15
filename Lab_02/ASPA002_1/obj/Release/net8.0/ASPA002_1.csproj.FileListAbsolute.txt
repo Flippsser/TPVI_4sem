@@ -1,0 +1,67 @@
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\bin\Release\net8.0\appsettings.Development.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\bin\Release\net8.0\appsettings.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\bin\Release\net8.0\ASPA002_1.staticwebassets.runtime.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\bin\Release\net8.0\ASPA002_1.staticwebassets.endpoints.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\bin\Release\net8.0\ASPA002_1.exe
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\bin\Release\net8.0\ASPA002_1.deps.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\bin\Release\net8.0\ASPA002_1.runtimeconfig.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\bin\Release\net8.0\ASPA002_1.dll
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\bin\Release\net8.0\ASPA002_1.pdb
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\rpswa.dswa.cache.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\ASPA002_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\ASPA002_1.AssemblyInfoInputs.cache
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\ASPA002_1.AssemblyInfo.cs
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\ASPA002_1.csproj.CoreCompileInputs.cache
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\ASPA002_1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\ASPA002_1.RazorAssemblyInfo.cache
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\ASPA002_1.RazorAssemblyInfo.cs
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\rjimswa.dswa.cache.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\scopedcss\bundle\ASPA002_1.styles.css
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\scopedcss\projectbundle\ASPA002_1.bundle.scp.css
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\staticwebassets.build.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\staticwebassets.build.json.cache
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\staticwebassets.development.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\ASPA002_1.dll
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\refint\ASPA002_1.dll
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\ASPA002_1.pdb
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\ASPA002_1.genruntimeconfig.cache
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\Новая папка\4сем\TPVI_4sem-main\TPVI_4sem-main\laba2\ASPA002_1\obj\Release\net8.0\ref\ASPA002_1.dll
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\bin\Release\net8.0\appsettings.Development.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\bin\Release\net8.0\appsettings.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\bin\Release\net8.0\ASPA002_1.staticwebassets.endpoints.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\bin\Release\net8.0\ASPA002_1.staticwebassets.runtime.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\bin\Release\net8.0\ASPA002_1.exe
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\bin\Release\net8.0\ASPA002_1.deps.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\bin\Release\net8.0\ASPA002_1.runtimeconfig.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\bin\Release\net8.0\ASPA002_1.dll
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\bin\Release\net8.0\ASPA002_1.pdb
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\rpswa.dswa.cache.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\ASPA002_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\ASPA002_1.AssemblyInfoInputs.cache
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\ASPA002_1.AssemblyInfo.cs
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\ASPA002_1.csproj.CoreCompileInputs.cache
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\ASPA002_1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\ASPA002_1.RazorAssemblyInfo.cache
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\ASPA002_1.RazorAssemblyInfo.cs
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\ASPA002_1.sourcelink.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\rjimswa.dswa.cache.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\scopedcss\bundle\ASPA002_1.styles.css
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\scopedcss\projectbundle\ASPA002_1.bundle.scp.css
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\staticwebassets.build.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\staticwebassets.build.json.cache
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\staticwebassets.development.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\ASPA002_1.dll
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\refint\ASPA002_1.dll
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\ASPA002_1.pdb
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\ASPA002_1.genruntimeconfig.cache
+C:\Users\Misha\Desktop\FIT\Second_Kurs\4 sem\TPVI\Labs\Lab_02\ASPA002_1\obj\Release\net8.0\ref\ASPA002_1.dll
