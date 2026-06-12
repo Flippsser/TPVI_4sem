@@ -1,0 +1,27 @@
+@page
+@model ASPA007_1.Pages.CelebritiesModel
+@{
+    ViewData["Title"] = "Celebrities";
+}
+
+<section class="page-block">
+    <h2>Celebrities</h2>
+
+    @if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger" role="alert">@Model.ErrorMessage</div>
+    }
+
+    <div class="celebrity-gallery">
+        <a class="celebrity-tile diamond-tile" asp-page="/NewCelebrity" title="Add new celebrity">
+            <img src="~/img/diamond.jpg" alt="Add new celebrity" />
+        </a>
+
+        @foreach (var celebrity in Model.Celebrities)
+        {
+            <a class="celebrity-tile" asp-page="/Celebrity" asp-route-id="@celebrity.Id" title="@celebrity.FullName">
+                <img src="@Model.PhotoUrl(celebrity.ReqPhotoPath)" alt="@celebrity.FullName" />
+            </a>
+        }
+    </div>
+</section>

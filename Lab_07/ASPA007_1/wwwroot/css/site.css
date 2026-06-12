@@ -1,0 +1,115 @@
+.celebrity-gallery {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.celebrity-tile {
+  display: inline-block;
+  height: 150px;
+  overflow: hidden;
+  width: 120px;
+}
+
+.celebrity-tile img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.diamond-tile {
+  height: 150px;
+  width: 150px;
+}
+
+.diamond-tile img {
+  object-fit: contain;
+}
+
+.celebrity-photo-large {
+  display: block;
+  height: auto;
+  max-height: 420px;
+  max-width: 360px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.lifeevents-table {
+  border-collapse: collapse;
+}
+
+.lifeevents-table th,
+.lifeevents-table td {
+  border: 1px solid #333;
+  padding: 6px 10px;
+}
+
+.new-celebrity-panel {
+  border: 1px solid #999;
+  display: grid;
+  grid-template-columns: 220px minmax(300px, 1fr);
+  max-width: 760px;
+  overflow: hidden;
+}
+
+.new-celebrity-preview {
+  height: 260px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.new-celebrity-fields {
+  align-self: center;
+  display: grid;
+  gap: 10px;
+  padding: 18px;
+}
+
+.new-celebrity-fields input {
+  min-height: 34px;
+  padding: 6px 8px;
+  width: 100%;
+}
+
+.new-celebrity-row {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr 90px;
+}
+
+.file-row {
+  display: grid;
+  gap: 4px;
+}
+
+.file-row input[type="file"] {
+  cursor: pointer;
+}
+
+.action-row {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.action-row button,
+.new-celebrity-fields button {
+  min-width: 110px;
+  padding: 6px 12px;
+}
+
+@media (max-width: 700px) {
+  .new-celebrity-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .new-celebrity-row {
+    grid-template-columns: 1fr;
+  }
+
+  .action-row {
+    flex-direction: column;
+  }
+}

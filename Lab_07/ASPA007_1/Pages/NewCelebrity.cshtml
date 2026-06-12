@@ -1,0 +1,51 @@
+@page
+@model ASPA007_1.Pages.NewCelebrityModel
+@{
+    ViewData["Title"] = "New Celebrity";
+}
+
+<section class="page-block">
+    <h2>New Celebrity</h2>
+
+    @if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger" role="alert">@Model.ErrorMessage</div>
+    }
+
+    @if (Model.IsConfirmation)
+    {
+        <form class="new-celebrity-panel" method="post" asp-page-handler="Confirm">
+            <img class="new-celebrity-preview" src="@Model.PreviewPhotoUrl" alt="@Model.FullName" />
+
+            <div class="new-celebrity-fields">
+                <input asp-for="FullName" readonly />
+                <input asp-for="Nationality" readonly />
+                <input asp-for="TempPhotoFileName" type="hidden" />
+                <input asp-for="OriginalPhotoName" type="hidden" />
+                <button type="submit" name="action" value="confirm">CONFIRMATION</button>
+                <button type="submit" name="action" value="cancel">CANCEL</button>
+            </div>
+        </form>
+    }
+    else
+    {
+        <form class="new-celebrity-panel" enctype="multipart/form-data" method="post" asp-page-handler="Preview">
+            <img class="new-celebrity-preview" src="~/img/diamond.jpg" alt="New celebrity" />
+
+            <div class="new-celebrity-fields">
+                <div class="new-celebrity-row">
+                    <input asp-for="FullName" placeholder="Celebrities Name" autocomplete="off" />
+                    <input asp-for="Nationality" placeholder="Nation" maxlength="2" autocomplete="off" />
+                </div>
+                <div class="file-row">
+                    <label asp-for="Photo">Photo</label>
+                    <input asp-for="Photo" type="file" accept=".jpg,.jpeg,.png,.gif,.webp" />
+                </div>
+                <div class="action-row">
+                    <button class="primary-action" type="submit" name="action" value="ok">OK</button>
+                    <button type="submit" name="action" value="cancel">CANCEL</button>
+                </div>
+            </div>
+        </form>
+    }
+</section>

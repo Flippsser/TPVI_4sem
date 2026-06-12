@@ -1,0 +1,18 @@
+@page
+@model ASPA007_1.Pages.CelebrityModel
+@{
+    ViewData["Title"] = Model.Celebrity?.FullName ?? "Celebrity";
+}
+
+<section class="page-block">
+    @if (Model.Celebrity is null)
+    {
+        <h2>Celebrity not found</h2>
+        <a asp-page="/Celebrities">Home</a>
+    }
+    else
+    {
+        <h2 class="underlined-title">@Model.Celebrity.FullName</h2>
+        <img class="celebrity-photo-large" src="@Model.PhotoUrl" alt="@Model.Celebrity.FullName" />
+    }
+</section>

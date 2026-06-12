@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 16px 10px;
+    color: #111;
+    background: #fff;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    margin: 0 0 22px;
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+main {
+    max-width: 1100px;
+}
+
+.celebrities {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 4px;
+}
+
+.celebrity-photo {
+    display: block;
+    width: auto;
+    height: 104px;
+    max-width: 180px;
+    object-fit: cover;
+    border: 2px solid #8a8a8a;
+    cursor: pointer;
+}
+
+.celebrity-photo:focus {
+    outline: 3px solid #008cff;
+    outline-offset: 2px;
+}
+
+.lifeevents {
+    box-sizing: border-box;
+    width: min(100%, 765px);
+    min-height: 54px;
+    margin-top: 8px;
+    padding: 8px 0;
+    border: 3px solid #ff1b2d;
+    font-size: 16px;
+}
+
+.lifeevents[hidden] {
+    display: none;
+}
+
+.message {
+    margin: 0;
+    padding: 8px 0;
+    color: #9b1c1c;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.lifeevent-row {
+    display: grid;
+    grid-template-columns: 175px 180px minmax(0, 1fr);
+    align-items: baseline;
+    min-height: 24px;
+    gap: 0;
+}
+
+.lifeevent-row span {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 720px) {
+    body {
+        padding: 14px 8px;
+    }
+
+    .celebrity-photo {
+        height: 88px;
+        max-width: 145px;
+    }
+
+    .lifeevent-row {
+        grid-template-columns: 1fr;
+        gap: 2px;
+        padding: 0 6px 8px;
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "Celebrities": {
+    "PhotosRequestPath": "/Photos",
+    "PhotosFolder": "Photos",
+    "ConnectionString": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=LES01_Lab06;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;Connect Timeout=5"
+  }
+}
