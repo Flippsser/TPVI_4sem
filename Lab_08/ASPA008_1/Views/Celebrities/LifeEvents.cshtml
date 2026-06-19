@@ -1,0 +1,36 @@
+@model LifeEventsViewModel
+
+@{
+    ViewData["Title"] = "Life Events";
+}
+
+<section class="page-block">
+    <h2>Life Events</h2>
+
+    @if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger" role="alert">@Model.ErrorMessage</div>
+    }
+
+    <table class="lifeevents-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Celebrity</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (LifeEventRowViewModel item in Model.Events)
+            {
+                <tr>
+                    <td>@item.Date?.ToString("yyyy-MM-dd")</td>
+                    <td>
+                        <a asp-action="Human" asp-route-id="@item.CelebrityId">@item.CelebrityName</a>
+                    </td>
+                    <td>@item.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>

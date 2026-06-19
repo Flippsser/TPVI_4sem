@@ -1,0 +1,8 @@
+{
+  "Celebrities": {
+    "PhotosRequestPath": "/Photos",
+    "PhotosFolder": "Photos",
+    "CountryCodesPath": "CountryCodes/iso3166-1-alpha2-country-codes.json",
+    "ConnectionString": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=LES01_Lab06;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;Connect Timeout=5"
+  }
+}

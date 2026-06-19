@@ -1,0 +1,38 @@
+@model CelebrityFormModel
+@using Microsoft.AspNetCore.Mvc.Rendering
+@inject ASPA008_1.CountryCodes.CountryCodesService CountryCodes
+
+@{
+    ViewData["Title"] = "Редактирование";
+    SelectList countries = new(CountryCodes.Countries, "Code", "CountryLabel", Model.Nationality);
+}
+
+<section class="celebrities-page">
+    <h2>Редактирование</h2>
+
+    <form class="celebrity-form" asp-action="Edit" asp-route-id="@Model.Id" enctype="multipart/form-data" method="post">
+        @Html.AntiForgeryToken()
+
+        <img class="form-photo-preview" src="@Model.ExistingPhotoUrl" alt="@Model.FullName" />
+
+        <div class="form-fields">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-row">
+                <input asp-for="FullName" class="form-control" />
+                @Html.DropDownListFor(model => model.Nationality, countries, new { @class = "form-select", required = "required" })
+            </div>
+            <span asp-validation-for="FullName" class="text-danger"></span>
+            <span asp-validation-for="Nationality" class="text-danger"></span>
+
+            <input asp-for="ExistingPhotoFileName" type="hidden" />
+            <input asp-for="Upload" class="form-control" type="file" accept="image/*" />
+            <span asp-validation-for="Upload" class="text-danger"></span>
+
+            <div class="button-row">
+                <button class="btn btn-primary" type="submit">ОК</button>
+                <a class="btn btn-secondary" asp-action="Human" asp-route-id="@Model.Id">ОТМЕНА</a>
+            </div>
+        </div>
+    </form>
+</section>

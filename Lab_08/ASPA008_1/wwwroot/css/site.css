@@ -1,0 +1,172 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.app-header {
+  margin-bottom: 18px;
+  padding: 8px 0 0;
+}
+
+.app-header h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.1;
+  margin: 0 0 8px;
+}
+
+.app-header nav {
+  display: flex;
+  gap: 12px;
+}
+
+.app-main {
+  padding-bottom: 24px;
+}
+
+.page-block {
+  margin-top: 16px;
+}
+
+.celebrities-page {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.celebrity-gallery {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.celebrity-photo {
+  background: #f6f6f6;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  height: 150px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.celebrity-photo#\30 {
+  object-fit: contain;
+  width: 150px;
+}
+
+.celebrity-form {
+  align-items: center;
+  background: #c9a066;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 180px minmax(280px, 1fr);
+  margin-top: 18px;
+  padding: 18px;
+}
+
+.form-photo-preview {
+  background: #fff;
+  height: 150px;
+  object-fit: cover;
+  width: 150px;
+}
+
+.form-fields {
+  display: grid;
+  gap: 8px;
+}
+
+.form-row {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr 180px;
+}
+
+.upload-row {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr 180px;
+}
+
+.upload-row input[type="file"] {
+  display: none;
+}
+
+.button-row {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.details-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.celebrity-details {
+  align-items: center;
+  background: #c9a066;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 180px 1fr;
+  padding: 22px;
+}
+
+.details-photo {
+  height: 150px;
+  object-fit: cover;
+  width: 150px;
+}
+
+.nationality {
+  font-weight: 600;
+}
+
+.lifeevents-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.lifeevents-list li {
+  margin-bottom: 6px;
+}
+
+.lifeevents-list span {
+  display: inline-block;
+  min-width: 95px;
+}
+
+.wiki-buttons {
+  display: grid;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+@media (max-width: 700px) {
+  .celebrity-form,
+  .celebrity-details,
+  .form-row,
+  .upload-row,
+  .button-row {
+    grid-template-columns: 1fr;
+  }
+}

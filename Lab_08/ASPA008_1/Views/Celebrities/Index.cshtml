@@ -1,0 +1,23 @@
+@model CelebrityIndexViewModel
+
+@{
+    ViewData["Title"] = "Celebrities";
+}
+
+<section class="celebrities-page">
+    <h2>Celebrities</h2>
+
+    @if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger" role="alert">@Model.ErrorMessage</div>
+    }
+
+    <div class="celebrity-gallery">
+        @Html.CelebrityPhoto(0, "New Celebrity", Url.Content("~/img/diamond.jpg"))
+
+        @foreach (CelebrityListItemViewModel celebrity in Model.Celebrities)
+        {
+            @Html.CelebrityPhoto(celebrity.Id, celebrity.FullName, celebrity.PhotoUrl)
+        }
+    </div>
+</section>

@@ -1,0 +1,43 @@
+@model CelebrityFormModel
+@using Microsoft.AspNetCore.Mvc.Rendering
+@inject ASPA008_1.CountryCodes.CountryCodesService CountryCodes
+
+@{
+    SelectList countries = new(CountryCodes.Countries, "Code", "CountryLabel", Model.Nationality);
+}
+
+@using (Html.BeginForm("NewHumanForm", "Celebrities", FormMethod.Post, new { enctype = "multipart/form-data", @class = "celebrity-form" }))
+{
+    @Html.AntiForgeryToken()
+
+    <img class="form-photo-preview" src="~/img/diamond.jpg" alt="New Celebrity" />
+
+    <div class="form-fields">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-row">
+            @Html.TextBoxFor(model => model.FullName, new { @class = "form-control", placeholder = "Celebrities Name", required = "required" })
+            @Html.DropDownListFor(model => model.Nationality, countries, new { @class = "form-select", required = "required" })
+        </div>
+        <span asp-validation-for="FullName" class="text-danger"></span>
+        <span asp-validation-for="Nationality" class="text-danger"></span>
+
+        <div class="upload-row">
+            @Html.TextBoxFor(model => model.Upload, new { id = "upload", type = "file", accept = "image/*", required = "required" })
+            <button id="upload-button" class="btn btn-outline-secondary" type="button" onclick="document.getElementById('upload').click()">Загрузить фото</button>
+        </div>
+        <span asp-validation-for="Upload" class="text-danger"></span>
+
+        <div class="button-row">
+            <button class="btn btn-primary" type="submit">ОК</button>
+            <a class="btn btn-secondary" asp-action="Index">ОТМЕНА</a>
+        </div>
+    </div>
+}
+
+<script>
+    document.getElementById('upload')?.addEventListener('change', function () {
+        const button = document.getElementById('upload-button');
+        button.textContent = this.files?.length ? this.files[0].name : 'Загрузить фото';
+    });
+</script>

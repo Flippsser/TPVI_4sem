@@ -1,0 +1,29 @@
+@model CelebrityFormModel
+
+@{
+    ViewData["Title"] = "Подтверждение";
+}
+
+<section class="celebrities-page">
+    <h2>Подтверждение</h2>
+
+    <form class="celebrity-form" asp-action="ConfirmNewHuman" method="post">
+        @Html.AntiForgeryToken()
+
+        <img class="form-photo-preview" src="@Model.TempPhotoUrl" alt="@Model.FullName" />
+
+        <div class="form-fields">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input asp-for="FullName" class="form-control" readonly />
+            <input asp-for="Nationality" class="form-control" readonly />
+            <input asp-for="TempPhotoFileName" type="hidden" />
+            <input asp-for="OriginalPhotoName" type="hidden" />
+
+            <div class="button-row">
+                <button class="btn btn-primary" type="submit" name="submit" value="ok">ПОДТВЕРДИТЬ</button>
+                <button class="btn btn-secondary" type="submit" name="submit" value="cancel">ОТМЕНА</button>
+            </div>
+        </div>
+    </form>
+</section>

@@ -1,0 +1,47 @@
+@model CelebrityDetailsViewModel
+
+@{
+    ViewData["Title"] = Model.Celebrity.FullName;
+}
+
+<section class="celebrities-page">
+    <div class="details-actions">
+        <a class="btn btn-outline-secondary btn-sm" asp-action="Edit" asp-route-id="@Model.Celebrity.Id">Редактировать</a>
+        <a class="btn btn-outline-danger btn-sm" asp-action="Delete" asp-route-id="@Model.Celebrity.Id">Удалить</a>
+    </div>
+
+    <div class="celebrity-details">
+        <img class="details-photo" src="@Model.PhotoUrl" alt="@Model.Celebrity.FullName" />
+
+        <div>
+            <h2>@Model.Celebrity.FullName</h2>
+            <p class="nationality">@Model.Celebrity.Nationality</p>
+
+            @if (Model.Lifeevents.Count > 0)
+            {
+                <ul class="lifeevents-list">
+                    @foreach (var lifeevent in Model.Lifeevents)
+                    {
+                        <li>
+                            @if (lifeevent.Date.HasValue)
+                            {
+                                <span>@lifeevent.Date.Value.ToString("dd.MM.yyyy")</span>
+                            }
+                            @lifeevent.Description
+                        </li>
+                    }
+                </ul>
+            }
+        </div>
+    </div>
+
+    @if (Model.WikiReferences.Count > 0)
+    {
+        <div class="wiki-buttons">
+            @foreach (var reference in Model.WikiReferences)
+            {
+                <a class="btn btn-outline-primary btn-sm" href="@reference.Value" target="_blank" rel="noopener noreferrer">@reference.Key</a>
+            }
+        </div>
+    }
+</section>

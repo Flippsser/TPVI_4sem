@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Lab_06\DAL_Celebrity\DAL_Celebrity.csproj" />
+    <ProjectReference Include="..\..\Lab_06\DAL_Celebrity_MSSQL\DAL_Celebrity_MSSQL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Celebrities.config.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Update="CountryCodes\**\*" CopyToOutputDirectory="PreserveNewest" />
+    <Content Update="Photos\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>

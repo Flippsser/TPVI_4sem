@@ -1,0 +1,25 @@
+@model CelebrityDetailsViewModel
+
+@{
+    ViewData["Title"] = "Удаление";
+}
+
+<section class="celebrities-page">
+    <h2>Удаление</h2>
+
+    <form class="celebrity-form" asp-action="DeleteConfirmed" asp-route-id="@Model.Celebrity.Id" method="post">
+        @Html.AntiForgeryToken()
+
+        <img class="form-photo-preview" src="@Model.PhotoUrl" alt="@Model.Celebrity.FullName" />
+
+        <div class="form-fields">
+            <input class="form-control" value="@Model.Celebrity.FullName" readonly />
+            <input class="form-control" value="@Model.Celebrity.Nationality" readonly />
+
+            <div class="button-row">
+                <button class="btn btn-danger" type="submit" name="submit" value="delete">ПОДТВЕРДИТЬ УДАЛЕНИЕ</button>
+                <button class="btn btn-secondary" type="submit" name="submit" value="cancel">ОТМЕНА</button>
+            </div>
+        </div>
+    </form>
+</section>
